@@ -1,0 +1,18 @@
+<div>
+  <div *ngFor="let menuNode of menuList">
+    <div fxLayout="row" fxLayoutAlign="space-between center" [ngClass]="menuNode.state" class="subheader" (click)="menuNode.state = menuNode.state === 'close' ? 'open' : 'close'">
+      <div fxLayout="row" fxLayoutAlign="start center">
+        <md-icon>{{menuNode.icon}}</md-icon>
+        <span>{{menuNode.name}}</span>
+      </div>
+
+      <md-icon class="md-18"> {{menuNode.state === 'open' ? 'keyboard_arrow_up': 'keyboard_arrow_down'}}</md-icon>
+    </div>
+
+    <div [@toggleMenu]="menuNode.state" *ngFor="let childNode of menuNode.children" class="children-node">
+      <div class="children-node-name" fxLayout="row" fxLayoutAlign="start center">
+        <b>{{childNode.name}}</b>
+      </div>
+    </div>
+  </div>
+</div>

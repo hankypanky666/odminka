@@ -1,0 +1,46 @@
+.subheader {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 10px 10px 24px;
+  color: rgba(0, 0, 0, 0.54);
+  border-left: 2px solid #ffffff;
+
+  span {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+}
+
+.open {
+  background-color: #F5F5F5;
+  border-left: 2px solid #3F51B5;
+  color: #3F51B5;
+}
+
+.close {
+
+}
+
+.subheader:hover {
+  background-color: #F5F5F5;
+  border-left: 2px solid #3F51B5;
+  color: #3F51B5;
+}
+
+.children-node {
+
+  .children-node-name {
+    display: block;
+    color: rgba(0, 0, 0, 0.84);
+    font-size: 13px;
+    line-height: 14px;
+    height: 25px;
+    margin: 5px 0 5px 65px;
+    cursor: pointer;
+  }
+
+  .children-node-name:hover {
+    color: #3F51B5;
+  }
+
+}

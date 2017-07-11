@@ -1,0 +1,22 @@
+:host {
+  height: 100%;
+  display: block;
+}
+
+.wrapper {
+}
+
+.sidenav-container {
+  width: 100%;
+}
+
+.sidenav {
+  width: 300px;
+}
+
+.sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+<div fxLayout="column" fxLayoutAlign="start stretch" style="height: 100%">
+
+  <div class="toolbar">
+    <md-toolbar color="primary">
+      <button md-icon-button (click)="sidenav.toggle()">
+        <md-icon>menu</md-icon>
+      </button>
+      Odminka app
+    </md-toolbar>
+  </div>
+
+  <md-sidenav-container class="sidenav-container">
+    <md-sidenav #sidenav mode="side" class="sidenav">
+
+      <app-menu></app-menu>
+
+    </md-sidenav>
+
+
+    <div class="sidenav-content">
+      content
+    </div>
+  </md-sidenav-container>
+
+
+</div>
+
+

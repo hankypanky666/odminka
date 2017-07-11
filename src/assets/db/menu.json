@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Statistics",
+    "icon": "insert_chart",
+    "state": "close",
+    "children": [
+      {
+        "name": "Charts"
+      },
+      {
+        "name": "Progress Bars"
+      }
+    ]
+  },
+  {
+    "name": "Forms",
+    "icon": "border_color",
+    "state": "close",
+    "children": [
+      {
+        "name": "Form Elements"
+      },
+      {
+        "name": "Form Wizard"
+      }
+    ]
+  },
+  {
+    "name": "UI Elements",
+    "icon": "view_quilt",
+    "state": "close",
+    "children": [
+      {
+        "name": "Typography"
+      },
+      {
+        "name": "Buttons"
+      },
+      {
+        "name": "Icons"
+      },
+      {
+        "name": "Grid"
+      },
+      {
+        "name": "Modals"
+      }
+    ]
+  },
+  {
+    "name": "Maps",
+    "icon": "map",
+    "state": "close",
+    "children": [
+      {
+        "name": "Google Maps"
+
+      },
+      {
+        "name": "Leaflet Maps"
+      },
+      {
+        "name": "Bubble Maps"
+      },
+      {
+        "name": "Line Maps"
+      }
+    ]
+  }
+]
