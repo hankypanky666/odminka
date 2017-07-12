@@ -11,8 +11,9 @@
 
     <div [@toggleMenu]="menuNode.state" *ngFor="let childNode of menuNode.children" class="children-node">
       <div class="children-node-name" fxLayout="row" fxLayoutAlign="start center">
-        <b>{{childNode.name}}</b>
+        <a routerLink="{{childNode.route}}" routerLinkActive="active"><b>{{childNode.name}}</b></a>
       </div>
     </div>
   </div>
 </div>
+

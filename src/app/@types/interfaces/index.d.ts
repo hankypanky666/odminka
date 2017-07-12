@@ -3,6 +3,7 @@ interface Menu {
   icon: string,
   state: string,
   children: [{
-    name: string
+    name: string,
+    route: string
   }]
 }

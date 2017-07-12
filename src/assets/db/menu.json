@@ -5,10 +5,12 @@
     "state": "close",
     "children": [
       {
-        "name": "Charts"
+        "name": "Charts",
+        "route": "/dashboard/statistics/charts"
       },
       {
-        "name": "Progress Bars"
+        "name": "Progress Bars",
+        "route": "/dashboard/statistics/progress-bars"
       }
     ]
   },
@@ -18,10 +20,12 @@
     "state": "close",
     "children": [
       {
-        "name": "Form Elements"
+        "name": "Form Elements",
+        "route": "/dashboard/forms/form-element"
       },
       {
-        "name": "Form Wizard"
+        "name": "Form Wizard",
+        "route": "/dashboard/forms/form-wizard"
       }
     ]
   },
@@ -31,19 +35,24 @@
     "state": "close",
     "children": [
       {
-        "name": "Typography"
+        "name": "Typography",
+        "route": "/dashboard/ui-elements/typography"
       },
       {
-        "name": "Buttons"
+        "name": "Buttons",
+        "route": "/dashboard/ui-elements/buttons"
       },
       {
-        "name": "Icons"
+        "name": "Icons",
+        "route": "/dashboard/ui-elements/icons"
       },
       {
-        "name": "Grid"
+        "name": "Grid",
+        "route": "/dashboard/ui-elements/grid"
       },
       {
-        "name": "Modals"
+        "name": "Modals",
+        "route": "/dashboard/ui-elements/modals"
       }
     ]
   },
@@ -53,17 +62,21 @@
     "state": "close",
     "children": [
       {
-        "name": "Google Maps"
+        "name": "Google Maps",
+        "route": "/dashboard/maps/google-maps"
 
       },
       {
-        "name": "Leaflet Maps"
+        "name": "Leaflet Maps",
+        "route": "/dashboard/maps/leaflet-maps"
       },
       {
-        "name": "Bubble Maps"
+        "name": "Bubble Maps",
+        "route": "/dashboard/maps/bubble-maps"
       },
       {
-        "name": "Line Maps"
+        "name": "Line Maps",
+        "route": "/dashboard/maps/line-maps"
       }
     ]
   }

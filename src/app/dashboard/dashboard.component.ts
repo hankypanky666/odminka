@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Subject } from 'rxjs/Subject';
-import { MdSidenav } from '@angular/material';
 
 @Component({
   selector: 'app-dashboard',
